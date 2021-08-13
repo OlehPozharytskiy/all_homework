@@ -1,0 +1,16 @@
+/* about me */
+
+.about-me-text {
+  width: 750px;
+}
+
+/* my work experience (second company) */
+
+.technical-specifications-list {
+  color: red;
+  margin-left: 25px;
+}
+
+.technical-specifications-text {
+  color: black;
+}
