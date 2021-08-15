@@ -1,0 +1,56 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+body {
+  font-size: 18px;
+}
+
+/* content block */
+h1 {
+  background-color: #a52a2a;
+  text-align: center;
+  color: #fff;
+}
+
+.sunset {
+  border: 1px solid black;
+}
+
+/* text block 1 */
+.first {
+  padding-right: 40px;
+}
+
+.blue {
+  font-weight: bold;
+  color: #0700ff;
+}
+
+/* cars sectoin */
+section {
+  text-align: center;
+}
+
+.cars {
+  border-style: dotted;
+}
+
+/* text block 2 */
+.second {
+  padding-right: 10px;
+}
+
+.color {
+  color: #2d00ff;
+}
+
+/* footer */
+footer {
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  text-align: center;
+}

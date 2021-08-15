@@ -1,0 +1,46 @@
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: teal;
+  border-radius: 0 0 20px 20px;
+}
+
+header a {
+  display: inline-block;
+  padding: 5px 10px;
+  transition: color, transform 0.35s ease-in-out;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: tomato;
+  transform: scale(1.1);
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* перенос строки */
+  flex-wrap: wrap;
+}
+
+.sub-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  min-width: 150px;
+  text-align: left;
+  top: 30px;
+  background-color: whitesmoke;
+}
+
+.menu-item:hover > ul.sub-menu {
+  display: flex;
+}
+
+.menu-item {
+  position: relative;
+}
