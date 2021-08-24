@@ -1,19 +1,20 @@
-.heder-nav {
+.container-nav {
   display: flex;
   justify-content: center;
   padding: 20px 0;
-  background-color: teal;
+  background-color: hotpink;
   border-radius: 0 0 20px 20px;
 }
 
-.heder-nav a {
+.container-nav a {
   display: inline-block;
   padding: 5px 10px;
   transition: color, transform 0.35s ease-in-out;
   text-decoration: none;
+  color: blueviolet;
 }
 
-.heder-nav a:hover {
+.container-nav a:hover {
   color: tomato;
   transform: scale(1.1);
 }
@@ -36,7 +37,7 @@
   min-width: 150px;
   text-align: left;
   top: 30px;
-  background-color: whitesmoke;
+  background-color: blanchedalmond;
 }
 
 .menu-item:hover > ul.sub-menu {
