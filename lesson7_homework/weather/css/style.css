@@ -29,29 +29,34 @@ body {
   text-align: center;
 }
 
-ul {
+.wether_list {
   font-size: 0;
+}
+
+.wether_item {
+  transition: all 0.35s ease-in-out;
+}
+
+.wether_list:hover .wether_item {
+  opacity: 0.3;
+}
+
+.wether_list:hover .wether_item:hover {
+  opacity: 1;
 }
 
 li {
   display: inline-block;
-
   font-size: 24px;
 }
+
 /* lisbon block */
 .lisbon {
   width: 50%;
   text-align: center;
   padding: 30px 0;
-  background-color: #3399cc;
-  border: 2px solid white;
-  opacity: 0.3;
-}
-
-.lisbon:hover {
   background-color: #3399fc;
-  opacity: 1;
-  transition: all 0.35s ease-in-out;
+  border: 2px solid white;
 }
 
 .blur {
@@ -66,13 +71,6 @@ li {
   text-align: center;
   padding: 30px 0;
   border: 2px solid white;
-  opacity: 0.3;
-}
-
-.paris:hover {
-  background-color: #33cccc;
-  opacity: 1;
-  transition: all 0.35s ease-in-out;
 }
 
 /* belgrade block */
@@ -83,13 +81,6 @@ li {
   text-align: center;
   padding: 30px 0;
   border: 2px solid white;
-  opacity: 0.3;
-}
-
-.belgrade:hover {
-  background-color: #996699;
-  opacity: 1;
-  transition: all 0.35s ease-in-out;
 }
 
 /* moscow block */
@@ -100,13 +91,6 @@ li {
   text-align: center;
   padding: 30px 0;
   border: 2px solid white;
-  opacity: 0.3;
-}
-
-.moscow:hover {
-  background-color: #c24747;
-  opacity: 1;
-  transition: all 0.35s ease-in-out;
 }
 
 /* tel aviv block */
@@ -117,13 +101,6 @@ li {
   text-align: center;
   padding: 30px 0;
   border: 2px solid white;
-  opacity: 0.3;
-}
-
-.tel_aviv:hover {
-  background-color: #e2674a;
-  opacity: 1;
-  transition: all 0.35s ease-in-out;
 }
 
 /* cair block */
@@ -134,13 +111,6 @@ li {
   text-align: center;
   padding: 30px 0;
   border: 2px solid white;
-  opacity: 0.3;
-}
-
-.cair:hover {
-  background-color: #ffcc66;
-  opacity: 1;
-  transition: all 0.35s ease-in-out;
 }
 
 /* new_york block */
@@ -151,13 +121,6 @@ li {
   text-align: center;
   padding: 30px 0;
   border: 2px solid white;
-  opacity: 0.3;
-}
-
-.new_york:hover {
-  background-color: #99cc99;
-  opacity: 1;
-  transition: all 0.35s ease-in-out;
 }
 
 /* new delhi block */
@@ -168,13 +131,6 @@ li {
   text-align: center;
   padding: 30px 0;
   border: 2px solid white;
-  opacity: 0.3;
-}
-
-.new_delhi:hover {
-  background-color: #669999;
-  opacity: 1;
-  transition: all 0.35s ease-in-out;
 }
 
 /* san francisco block */
@@ -185,13 +141,6 @@ li {
   text-align: center;
   padding: 30px 0;
   border: 2px solid white;
-  opacity: 0.3;
-}
-
-.san_francisco:hover {
-  background-color: #cc6699;
-  opacity: 1;
-  transition: all 0.35s ease-in-out;
 }
 
 /* tokyo block */
@@ -202,13 +151,6 @@ li {
   text-align: center;
   padding: 30px 0;
   border: 2px solid white;
-  opacity: 0.3;
-}
-
-.tokyo:hover {
-  background-color: #339966;
-  opacity: 1;
-  transition: all 0.35s ease-in-out;
 }
 
 /* sidney block */
@@ -219,13 +161,6 @@ li {
   text-align: center;
   padding: 30px 0;
   border: 2px solid white;
-  opacity: 0.3;
-}
-
-.sydney:hover {
-  background-color: #666699;
-  opacity: 1;
-  transition: all 0.35s ease-in-out;
 }
 
 footer {
