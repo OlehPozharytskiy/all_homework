@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "ABeeZee", sans-serif;
+  color: white;
+  background-color: #3399cc;
+}
+
+/* main container */
+
+.main_container {
+  max-width: 980px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* header */
+
+.title {
+  margin-top: 55px;
+  margin-bottom: 40px;
+}
+
+.weather_container {
+  text-align: center;
+}
+
+ul {
+  font-size: 0;
+}
+
+li {
+  display: inline-block;
+
+  font-size: 24px;
+}
+/* lisbon block */
+.lisbon {
+  width: 50%;
+  text-align: center;
+  padding: 30px 0;
+  background-color: #3399cc;
+  border: 2px solid white;
+  opacity: 0.3;
+}
+
+.lisbon:hover {
+  background-color: #3399fc;
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+.blur {
+  color: #ebc5c5;
+}
+
+/* paris block */
+
+.paris {
+  width: 25%;
+  background-color: #33cccc;
+  text-align: center;
+  padding: 30px 0;
+  border: 2px solid white;
+  opacity: 0.3;
+}
+
+.paris:hover {
+  background-color: #33cccc;
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+/* belgrade block */
+
+.belgrade {
+  width: 25%;
+  background-color: #996699;
+  text-align: center;
+  padding: 30px 0;
+  border: 2px solid white;
+  opacity: 0.3;
+}
+
+.belgrade:hover {
+  background-color: #996699;
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+/* moscow block */
+
+.moscow {
+  width: 25%;
+  background-color: #c24747;
+  text-align: center;
+  padding: 30px 0;
+  border: 2px solid white;
+  opacity: 0.3;
+}
+
+.moscow:hover {
+  background-color: #c24747;
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+/* tel aviv block */
+
+.tel_aviv {
+  width: 25%;
+  background-color: #e2674a;
+  text-align: center;
+  padding: 30px 0;
+  border: 2px solid white;
+  opacity: 0.3;
+}
+
+.tel_aviv:hover {
+  background-color: #e2674a;
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+/* cair block */
+
+.cair {
+  width: 25%;
+  background-color: #ffcc66;
+  text-align: center;
+  padding: 30px 0;
+  border: 2px solid white;
+  opacity: 0.3;
+}
+
+.cair:hover {
+  background-color: #ffcc66;
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+/* new_york block */
+
+.new_york {
+  width: 25%;
+  background-color: #99cc99;
+  text-align: center;
+  padding: 30px 0;
+  border: 2px solid white;
+  opacity: 0.3;
+}
+
+.new_york:hover {
+  background-color: #99cc99;
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+/* new delhi block */
+
+.new_delhi {
+  width: 25%;
+  background-color: #669999;
+  text-align: center;
+  padding: 30px 0;
+  border: 2px solid white;
+  opacity: 0.3;
+}
+
+.new_delhi:hover {
+  background-color: #669999;
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+/* san francisco block */
+
+.san_francisco {
+  width: 50%;
+  background-color: #cc6699;
+  text-align: center;
+  padding: 30px 0;
+  border: 2px solid white;
+  opacity: 0.3;
+}
+
+.san_francisco:hover {
+  background-color: #cc6699;
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+/* tokyo block */
+
+.tokyo {
+  width: 25%;
+  background-color: #339966;
+  text-align: center;
+  padding: 30px 0;
+  border: 2px solid white;
+  opacity: 0.3;
+}
+
+.tokyo:hover {
+  background-color: #339966;
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+/* sidney block */
+
+.sydney {
+  width: 100%;
+  background-color: #666699;
+  text-align: center;
+  padding: 30px 0;
+  border: 2px solid white;
+  opacity: 0.3;
+}
+
+.sydney:hover {
+  background-color: #666699;
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+footer {
+  margin-top: 50px;
+}
