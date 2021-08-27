@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-style: normal;
+  color: #333333;
+  background-color: #fdde7e;
+}
+
+/* main container */
+
+.c-main_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.c-container_block {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+
+/* coffee block */
+
+.c-content_block {
+  border-radius: 10px;
+  display: flex;
+  margin: 10px;
+  width: 360px;
+  height: 440px;
+  max-width: 360px;
+  background-color: #fff;
+  /* box-shadow: 1px #cab265; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* center coffee block */
+
+.c-content_block_larger {
+  height: 500px;
+}
+
+.e-costs {
+  color: #02995b;
+  font-size: 25px;
+}
+
+.e-costs h1 {
+  margin: 0;
+  margin-top: 40px;
+}
+
+.c-content_block_larger .e-costs h1 {
+  margin: 0;
+  margin-top: 50px;
+}
+
+.c-content_block_larger .e-svg-smoke {
+  margin-top: 40px;
+}
+
+.e-svg-smoke {
+  margin-top: 20px;
+}
+
+.e-svg_cup {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* position for cup */
+.margin-right {
+  margin-left: 15px;
+}
+
+/* position bean */
+
+.e-svg__bean {
+  position: absolute;
+}
+
+/* text content */
+
+.e-coin_text {
+  margin-top: 40px;
+}
+
+.c-content_block_larger .e-coin_text {
+  margin-top: 50px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  max-width: 130px;
+  text-align: center;
+}
