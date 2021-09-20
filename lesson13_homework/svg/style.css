@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  background: #11364e;
+}
+
+.svg__wrapper {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.svg__item {
+  min-width: 100px;
+  height: 100px;
+}
+
+.item {
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+}
