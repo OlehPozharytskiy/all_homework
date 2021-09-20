@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  background: #11364e;
+  color: #fff;
+}
+
+.contact-us__wrapper {
+  margin: 150px auto;
+  width: 370px;
+}
+
+.contact-us__title {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.contact-us__item__title {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.form-item {
+  width: 100%;
+  padding: 5px 0px;
+  border: 0;
+  outline: none;
+  color: #fff;
+  background: none;
+  transition: all 0.3s;
+  margin-bottom: 40px;
+  font-size: 16px;
+  border-bottom: 1px solid #ffffff60;
+  opacity: 0.2;
+}
+
+.btn button {
+  height: 60px;
+  width: 100%;
+  color: white;
+  background: #ff7f57;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}

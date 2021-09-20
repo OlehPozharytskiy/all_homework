@@ -1,0 +1,162 @@
+/* Global style */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Main style */
+body {
+  background-color: #414453;
+}
+
+/* Flower */
+.c-flower {
+  position: fixed;
+  right: 100px;
+  top: 100px;
+}
+
+.c-flower__wrapper {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 600px;
+  padding: 40px;
+  display: flex;
+  width: 600px;
+}
+
+.c-flower__lines__item {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  z-index: 3;
+}
+
+.c-flower__lines__item--vertical-mini {
+  transform: rotate(45deg);
+}
+
+.c-flower__lines__item--vertical {
+  transform: rotate(90deg);
+}
+
+.c-flower__lines__item--vertical-big {
+  transform: rotate(135deg);
+}
+
+.c-flower__yellow-circle {
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  z-index: 5;
+}
+
+.c-flower__circle-item {
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  z-index: 4;
+}
+
+.c-flower__circle-item--left {
+  left: 0;
+}
+
+.c-flower__circle-item--left:hover {
+  transform: translateX(-10px);
+}
+
+.c-flower__circle-item--right {
+  right: 0;
+}
+
+.c-flower__circle-item--right:hover {
+  transform: translateX(10px);
+}
+
+.c-flower__circle-item--top {
+  top: 0;
+}
+
+.c-flower__circle-item--top:hover {
+  transform: translateY(-10px);
+}
+
+.c-flower__circle-item--bottom {
+  bottom: 0;
+}
+
+.c-flower__circle-item--bottom:hover {
+  transform: translateY(10px);
+}
+
+.c-flower__circle-item--top-left {
+  left: 55px;
+  top: 55px;
+}
+
+.c-flower__circle-item--top-left:hover {
+  transform: translate(-15px, -15px);
+}
+
+.c-flower__circle-item--top-right {
+  right: 55px;
+  top: 55px;
+}
+
+.c-flower__circle-item--top-right:hover {
+  transform: translate(15px, -15px);
+}
+
+.c-flower__circle-item--bottom-left {
+  left: 55px;
+  bottom: 55px;
+}
+
+.c-flower__circle-item--bottom-left:hover {
+  transform: translate(-15px, 15px);
+}
+
+.c-flower__circle-item--bottom-right {
+  right: 55px;
+  bottom: 55px;
+}
+
+.c-flower__circle-item--bottom-right:hover {
+  transform: translate(15px, 15px);
+}
+
+/* Line */
+.e-line {
+  background-color: #808391;
+  height: 100%;
+  width: 100%;
+}
+
+/* Circle style */
+.circle {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.circle--yellow {
+  background-color: #ffcf6d;
+}
+
+.circle--yellow:hover {
+  border-radius: 20%;
+  transform: scale(1, 1);
+  transform-origin: center;
+  background-color: darkred;
+  transition: all ease-in-out;
+}
+
+.circle--red {
+  background-color: #ff545b;
+  z-index: 55;
+}
