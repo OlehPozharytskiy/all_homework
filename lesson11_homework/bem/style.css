@@ -1,0 +1,143 @@
+/* Global style */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* header */
+
+.c-header {
+  background-image: url(./img/img.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c-header__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.c-header__items {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 55px 0 0 0;
+}
+
+/* logo */
+
+.e-logo__wrapper {
+  font-family: "Pacifico", cursive;
+  margin: 5px;
+  font-size: 4em;
+}
+
+.e-logo__text {
+  width: 100%;
+}
+
+/* end of logo */
+
+/* navigation on page */
+
+.c-navigation__wrapper {
+  margin: 5px;
+}
+
+.c-navigaton__item {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.c-navigaton__text {
+  font-family: "Raleway", sans-serif;
+  border-top: 4px solid transparent;
+  font-weight: 700;
+  padding: 10px 0 0 0;
+  margin: 10px 20px 0 0;
+}
+
+.c-navigaton__text:hover {
+  border-top: 4px solid red;
+}
+
+.c-navigaton__text:active {
+  border-top: 4px solid darkred;
+}
+
+.c-navigaton__text:last-child {
+  margin-right: 0px;
+}
+
+.c-navigaton__text > a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* end of navigation on page */
+
+/* btn */
+.c-get-product__wrapper {
+  max-width: 340px;
+  margin: 215px 10px 0 10px;
+}
+
+.c-get-product__title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 5em;
+}
+
+.c-get-product__text {
+  font-family: "Raleway", sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  font-size: 1.1em;
+  overflow: hidden;
+  font-weight: 300;
+  margin-top: 5px;
+  line-height: 2;
+}
+
+.e-get-product-btn__wrapper {
+  margin: 35px 0;
+}
+
+.e-get-product-btn__item {
+  background-color: #ff6033;
+  /* margin-top: 35px; */
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  max-width: 200px;
+  height: 60px;
+  display: flex;
+  /* padding: 20px 45px; */
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.e-get-product-btn__item:active {
+  background-color: darkred;
+}
+
+/* cont */
+.c-cont {
+  background-color: green;
+
+  height: 100vh;
+}
