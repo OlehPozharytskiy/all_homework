@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Адаптив</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon -->
+    <link rel="icon" href="./img/favicon.png" />
+    <!-- Main style -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- head of site -->
+      <header class="c-header">
+        <div class="c-header__wrapper">
+          <div class="c-header__nav-bar">
+            <!-- element logo -->
+            <div class="e-logo">
+              <div class="e-logo__wrapper">
+                <a class="e-logo__text" href="#">Cahee</a>
+              </div>
+            </div>
+            <!-- end of element logo -->
+
+            <!-- navigation on page -->
+            <div class="c-navigation">
+              <div class="c-navigation__wrapper">
+                <ul class="c-navigaton__item">
+                  <li class="c-navigaton__text"><a href="#">HOME</a></li>
+                  <li class="c-navigaton__text"><a href="#">ABOUT</a></li>
+                  <li class="c-navigaton__text"><a href="#">SERVICES</a></li>
+                  <li class="c-navigaton__text"><a href="#">GALLERY</a></li>
+                  <li class="c-navigaton__text"><a href="#">BLOG</a></li>
+                  <li class="c-navigaton__text"><a href="#">CONTACT</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end of navigation on page -->
+          </div>
+
+          <!-- product section -->
+          <div class="c-get-product">
+            <div class="c-get-product__wrapper">
+              <div class="c-get-product__items">
+                <h2 class="c-get-product__title">Fresh Life</h2>
+                <p class="c-get-product__text">
+                  Sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco.
+                </p>
+
+                <!-- btn section -->
+                <div class="e-get-product-btn">
+                  <div class="e-get-product-btn__wrapper">
+                    <button class="e-get-product-btn__item" title="Get product">
+                      <span class="e-get-product-btn__text">GET FREE NOW</span>
+                    </button>
+                  </div>
+                </div>
+                <!-- btn section -->
+              </div>
+            </div>
+          </div>
+          <!-- end of product section -->
+        </div>
+      </header>
+      <!-- end of head of site -->
+
+      <div class="c-about">
+        <div class="c-about__wrapper">
+          <!-- about image -->
+          <div class="c-about__image">
+            <img
+              class="c-image_item"
+              src="./img/about-min.png"
+              alt="cup with strawberries"
+            />
+          </div>
+          <!-- end of about image -->
+
+          <!-- about text -->
+          <div class="c-about__items">
+            <h2 class="c-get-product__title c-get-product__title--white">
+              About Us
+            </h2>
+            <p class="c-get-product__text c-get-product__text--white">
+              Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum. Nim id est laborum. Sed ut perspiciatis unde
+              omnis iste natus error sit voluptatem accusantium doloremque
+              laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+            </p>
+          </div>
+          <!-- end of about text -->
+        </div>
+      </div>
+    </div>
+    <!-- scroll btn -->
+    <div class="e-scroll">
+      <div class="e-scroll__wrapper">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+          Top
+        </button>
+      </div>
+    </div>
+    <!-- end of scroll btn -->
+    <script src="./scroll.js"></script>
+  </body>
+</html>
