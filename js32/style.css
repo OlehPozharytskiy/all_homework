@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: hotpink;
+  color: #ffffff;
+}
+
+/* Layout */
+.container {
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.texteditor p {
+  margin: 0 0 10px;
+}
+.texteditor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textarea {
+  width: 60%;
+  padding: 40px;
+  text-align: center;
+  color: #000;
+  border: 2px solid #f7ce5b;
+}
+
+textarea {
+  width: 60%;
+  background: transparent;
+  color: #000;
+  border: 2px solid #f7ce5b;
+  outline: none;
+}

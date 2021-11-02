@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+body {
+  background: url(../img/bg.png) no-repeat;
+  background-size: cover;
+  font: 400 14px/1.6 "Lato", sans-serif;
+  color: #b7bacd;
+}
+
+/* Layout */
+.container {
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 1;
+}
+.game__wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.game__nav {
+  background: #2b3040;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 30px 60px;
+}
+.game__nav svg {
+  width: 22px;
+  height: 22px;
+  margin-bottom: 14px;
+}
+
+.tab {
+  background: transparent;
+  color: #fff;
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.7;
+}
+.tab.active {
+  opacity: 1;
+  position: relative;
+}
+.tab.active::after {
+  content: "";
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  border-bottom: 4px solid #fff;
+  width: 100%;
+}
+.game__content {
+  background: #212534;
+  padding: 60px 40px;
+}
+.hidden {
+  display: none;
+}
+.content {
+  display: flex;
+}
+.game-rating {
+  display: flex;
+}
+.game-rating svg {
+  width: 20px;
+  height: 20px;
+}
+.content__visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__visual img {
+  margin-bottom: 20px;
+}
+
+.content__description {
+  padding-left: 35px;
+}
+
+.game__title {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.game__title h2 {
+  margin: 0 0 5px 5px;
+}
+.game__title span {
+  margin-right: 30px;
+  font-size: 20px;
+}
+.game__title h5 {
+  font-size: 14px;
+  color: #ffffff;
+}
+.game__title span::after {
+  content: "";
+  width: 80px;
+  height: 80px;
+  top: 4px;
+  right: 0;
+  position: absolute;
+  background: url(../img/circle.png) no-repeat;
+}
+.game__description {
+  margin-bottom: 60px;
+}
+.game__buy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.game__buy span {
+  color: #fedc3f;
+  font-size: 12px;
+  font-weight: 700;
+}
+.game__buy h2 {
+  line-height: 1;
+}
+.buy-btn {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px;
+  display: inline-block;
+  border: 2px solid #13e28d;
+  background: #13e28d;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.buy-btn:hover {
+  background: transparent;
+}
+.content {
+  display: none;
+}
+.content.active {
+  display: flex;
+}

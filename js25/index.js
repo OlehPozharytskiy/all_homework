@@ -114,3 +114,14 @@
 // let oldDate = new Date(date[2], date[1] - 1, date[0]);
 // oldDate.setDate(oldDate.getDate() + 1);
 // alert(oldDate);
+
+let num = 1000;
+
+do {
+  num = 1000;
+} while (num > 50);
+{
+  num = num / 2;
+}
+
+console.log(num);
