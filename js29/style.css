@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  background: #11364e;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 10px;
+}
+
+p {
+  margin: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+}
