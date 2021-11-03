@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+.section-featured-work {
+  padding: 60px 0 100px;
+  text-align: center;
+  &__wrapper {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='30px' height='30px'%3E%3Cpath fill-rule='evenodd' fill='rgb(233, 132, 87)' d='M30.000,18.000 L18.000,18.000 L18.000,30.000 L12.000,30.000 L12.000,18.000 L-0.000,18.000 L-0.000,12.000 L12.000,12.000 L12.000,-0.000 L18.000,-0.000 L18.000,12.000 L30.000,12.000 L30.000,18.000 Z'/%3E%3C/svg%3E")
+        no-repeat top 0 right 20%,
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='61px' height='61px'%3E%3Cpath fill-rule='evenodd' stroke-width='6px' stroke='rgb(233, 132, 87)' fill='rgb(255, 255, 255)' d='M9.000,9.000 L53.000,19.000 L19.000,53.000 L9.000,9.000 Z'/%3E%3C/svg%3E")
+        no-repeat top 75% left 0;
+  }
+  p {
+    line-height: 1.1;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    margin-bottom: 18px;
+    @media screen and (min-width: 640px) {
+      margin-bottom: 30px;
+    }
+  }
+  h2 {
+    font-size: 50px;
+    @media screen and (min-width: 640px) {
+      font-size: 86px;
+    }
+  }
+}
+
+.image-slider {
+  // max-width: 400px;
+  padding: 30px 0 70px 0;
+  margin: 0 30px;
+
+  &__image {
+    text-align: center;
+  }
+
+  &__image img {
+    max-width: 100%;
+  }
+}
+
+// стрілки
+
+.slider-btn {
+  .slider-btn__prev,
+  .slider-btn__next {
+    background: transparent;
+    outline: none;
+    z-index: 10;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    outline: none;
+    background: url(../img/prev_arrow.png) no-repeat center;
+    @media screen and (min-width: 720px) {
+      width: 96px;
+      height: 96px;
+    }
+    &:hover,
+    &:focus {
+      outline: none;
+      box-shadow: inset 0 0 15px 10px rgba(27, 241, 173, 1);
+    }
+  }
+  .slider-btn__prev {
+    position: absolute;
+    top: calc(50% - 35px);
+    left: 5px;
+    @media screen and (min-width: 720px) {
+      top: calc(50% - 50px);
+      left: 5px;
+    }
+  }
+  .slider-btn__next {
+    position: absolute;
+    top: calc(50% - 35px);
+    right: 5px;
+    transform: rotate(180deg);
+    @media screen and (min-width: 720px) {
+      top: calc(50% - 50px);
+      right: 5px;
+    }
+  }
+}
+
+// булети
+.image-slider .swiper-pagination {
+  bottom: 20px;
+  color: green;
+}
+
+// фракція
+.image-slider .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background-color: green;
+}
+
+// прогресбар
+.image-slider .swiper-pagination-progressbar-fill {
+  background-color: red;
+}
+
+// не розумію як вивести картинку 1 скрол на початок?
+.image-slider .swiper-scrollbar-drag {
+  background-color: red;
+  cursor: pointer;
+}
